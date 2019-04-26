@@ -4,7 +4,7 @@ function addElementToBeginningOfArray(array, element)
 {
   var clone = array.slice(0);
   
-  clone.unshift("foo");
+  clone.unshift(element);
   array = clone;
   return clone;
 }
@@ -13,7 +13,7 @@ function destructivelyAddElementToBeginningOfArray(array, element)
 {
   //var clone = array.slice(0);
   
-  array.unshift("foo");
+  array.unshift(element);
   return array;
 }
 
