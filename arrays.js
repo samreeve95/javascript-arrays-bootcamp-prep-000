@@ -16,3 +16,4 @@ clone.unshift("foo");
 
 console.log(array);
 console.log(ar);
+console.log(clone);
