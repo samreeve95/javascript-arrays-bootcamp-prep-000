@@ -5,3 +5,6 @@ function addElementToBeginningOfArray(array, element)
   array.unshift(element);
 }
 
+var array=[1];
+
+console.log(array.unshift("foo"))
