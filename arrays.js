@@ -11,7 +11,7 @@ var array=[1];
 array.unshift("foo");
 
 const ar=[1];
-var arr = ar;
+var clone = ar.slice(0);
 arr.unshift("foo");
 
 console.log(array);
