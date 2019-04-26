@@ -11,7 +11,11 @@ function addElementToBeginningOfArray(array, element)
 
 function destructivelyAddElementToBeginningOfArray(array, element)
 {
+  //var clone = array.slice(0);
   
+  array.unshift("foo");
+  //array = clone;
+  return clone;
 }
 
 function addElementToEndOfArray(array, element)
