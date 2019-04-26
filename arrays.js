@@ -19,3 +19,8 @@ destructivelyRemoveElementFromBeginningOfArray(array)
 
 removeElementFromBeginningOfArray(array)
 
+destructivelyRemoveElementFromEndOfArray(array)
+
+removeElementFromEndOfArray(array)
+
+
