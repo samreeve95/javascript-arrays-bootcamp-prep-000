@@ -13,3 +13,4 @@ addElementToEndOfArray(array, element)
 
 destructivelyAddElementToEndOfArray(array, element)
 
+accessElementInArray(array, index)
