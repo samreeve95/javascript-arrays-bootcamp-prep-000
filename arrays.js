@@ -16,3 +16,6 @@ destructivelyAddElementToEndOfArray(array, element)
 accessElementInArray(array, index)
 
 destructivelyRemoveElementFromBeginningOfArray(array)
+
+removeElementFromBeginningOfArray(array)
+
