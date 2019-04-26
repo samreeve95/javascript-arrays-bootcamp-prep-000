@@ -9,20 +9,39 @@ function addElementToBeginningOfArray(array, element)
   return clone;
 }
 
-'destructivelyAddElementToBeginningOfArray(array, element)
+function destructivelyAddElementToBeginningOfArray(array, element)
+{
+  
+}
 
-addElementToEndOfArray(array, element)
+function addElementToEndOfArray(array, element)
+{
+  
+}
 
-destructivelyAddElementToEndOfArray(array, element)
-
-accessElementInArray(array, index)
-
-destructivelyRemoveElementFromBeginningOfArray(array)
-
-removeElementFromBeginningOfArray(array)
-
-destructivelyRemoveElementFromEndOfArray(array)
-
-removeElementFromEndOfArray(array)
+function destructivelyAddElementToEndOfArray(array, element)
+{
+  
+}
+function accessElementInArray(array, index)
+{
+  
+}
+function destructivelyRemoveElementFromBeginningOfArray(array)
+{
+  
+}
+function removeElementFromBeginningOfArray(array)
+{
+  
+}
+function destructivelyRemoveElementFromEndOfArray(array)
+{
+  
+}
+function removeElementFromEndOfArray(array)
+{
+  
+}
 
 
