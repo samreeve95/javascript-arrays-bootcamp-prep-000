@@ -11,7 +11,8 @@ var array=[1];
 array.unshift("foo");
 
 const ar=[1];
-ar.unshift("foo");
+var arr = ar;
+arr.unshift("foo");
 
 console.log(array);
 console.log(ar);
