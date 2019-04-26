@@ -7,4 +7,5 @@ function addElementToBeginningOfArray(array, element)
 
 var array=[1];
 
-console.log(array.unshift("foo"))
+console.log(array.unshift("foo"));
+console.log(array);
