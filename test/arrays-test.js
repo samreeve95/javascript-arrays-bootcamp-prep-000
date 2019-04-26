@@ -64,7 +64,7 @@ describe('arrays', () => {
     })
 
     it('alters the original array', () => {
-      const array = [1]
+      const array = [1];
 
       destructivelyAddElementToEndOfArray(array, 'foo');
 
