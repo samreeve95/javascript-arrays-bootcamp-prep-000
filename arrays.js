@@ -14,7 +14,7 @@ function destructivelyAddElementToBeginningOfArray(array, element)
   //var clone = array.slice(0);
   
   array.unshift("foo");
-  return clone;
+  return array;
 }
 
 function addElementToEndOfArray(array, element)
