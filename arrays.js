@@ -10,7 +10,8 @@ var array=[1];
 array.unshift("foo");
 
 const ar=[1];
-array = ar.unshift("foo");
+ar.unshift("foo");
+unshift(array, "foo");
 
 console.log(array);
 console.log(ar);
