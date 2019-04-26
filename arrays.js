@@ -1,1 +1,1 @@
-chocolate
+chocolateBars = []
