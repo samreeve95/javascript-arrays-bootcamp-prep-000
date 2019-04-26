@@ -19,7 +19,11 @@ function destructivelyAddElementToBeginningOfArray(array, element)
 
 function addElementToEndOfArray(array, element)
 {
+  var clone = array.slice(0);
   
+  clone.push("foo");
+  array = clone;
+  return clone;
 }
 
 function destructivelyAddElementToEndOfArray(array, element)
