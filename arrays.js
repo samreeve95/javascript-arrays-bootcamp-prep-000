@@ -11,7 +11,6 @@ array.unshift("foo");
 
 const ar=[1];
 ar.unshift("foo");
-unshift(array, "foo");
 
 console.log(array);
 console.log(ar);
