@@ -35,11 +35,15 @@ function accessElementInArray(array, index)
 }
 function destructivelyRemoveElementFromBeginningOfArray(array)
 {
-  
+  array.shift();
 }
 function removeElementFromBeginningOfArray(array)
 {
+  var clone = array.slice(0);
   
+  clone.shift();
+  array = clone;
+  return clone;
 }
 function destructivelyRemoveElementFromEndOfArray(array)
 {
