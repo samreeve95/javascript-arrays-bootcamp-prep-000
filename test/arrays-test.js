@@ -1,9 +1,9 @@
 /*global describe, it */
 
-const expect = require('chai').expect
-const fs = require('fs')
-const jsdom = require('mocha-jsdom')
-const path = require('path')
+const expect = require('chai').expect;
+const fs = require('fs');
+const jsdom = require('mocha-jsdom');
+const path = require('path');
 
 describe('arrays', () => {
   jsdom({
@@ -18,15 +18,15 @@ describe('arrays', () => {
 
   describe('addElementToBeginningOfArray(array, element)', () => {
     it('adds an element to the beginning of an array', () => {
-      expect(addElementToBeginningOfArray([1], 'foo')).to.eql(['foo', 1])
+      expect(addElementToBeginningOfArray([1], 'foo')).to.eql(['foo', 1]);
     })
 
     it('does not alter the original array', () => {
-      const array = [1]
+      const array = [1];
 
-      addElementToBeginningOfArray(array, 'foo')
+      addElementToBeginningOfArray(array, 'foo');
 
-      expect(array).to.eql([1])
+      expect(array).to.eql([1]);
     })
   })
 
