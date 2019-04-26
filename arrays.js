@@ -4,8 +4,8 @@ function addElementToBeginningOfArray(array, element)
 {
   var clone = array.slice(0);
   
-  array = clone;
   clone.unshift("foo");
+  array = clone;
   return clone;
 }
 
